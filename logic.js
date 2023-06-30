@@ -1,3 +1,4 @@
+
 const slides = document.querySelectorAll('.slide');
 
 for (const slide of slides) {
@@ -9,7 +10,6 @@ for (const slide of slides) {
 
 const clearActive = () => {
     slides.forEach((slide) => {
-        slide.classList.remove('active')
+        slide.classList.remove('active');
     })
 }
-

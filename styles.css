@@ -22,7 +22,7 @@ body {
 }
 
 .slide {
-    height: 80vh;
+    height: 90vh;
     border-radius: 10px;
     cursor: pointer;
     position: relative;
@@ -43,7 +43,7 @@ body {
 }
 
 .slide.active {
-    flex: 8;
+    flex: 4;
 }
 
 .slide.active h3{
