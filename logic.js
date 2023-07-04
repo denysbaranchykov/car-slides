@@ -1,5 +1,5 @@
 
-function slidesPlugin(activeSlide) {
+function slidesPlugin(activeSlide = 0) {
 
     const slides = document.querySelectorAll('.slide');
 
@@ -19,5 +19,5 @@ function slidesPlugin(activeSlide) {
     }
 }
 
-slidesPlugin(4);
+slidesPlugin(2);
 
